@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabio Pretel</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <div id="bola"></div>
+        <nav>
+            <a href="#" id="bolinha-1" onclick="clickBio()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#000000" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg></a>
+            <a href="#" id="bolinha-2" onclick="clickExec()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#000000" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg></a>
+            <a href="#" id="bolinha-3" onclick="clickProj()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#000000" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg></a>
+            <a href="#" id="bolinha-4" onclick="clickCurs()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#000000" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg></a>
+            <a href="#" id="bolinha-5" onclick="clickHabi()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#000000" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg></a>
+        </nav>
+    </header>
+    <main>
+        <article id="bio">
+            <h2>Bio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque facilis molestias ad atque laboriosam, expedita dolorem ducimus ipsa, explicabo beatae fugit qui aliquam dignissimos excepturi illo sit eum fugiat voluptates?</p>
+        </article>
+        <article id="exercicios">
+            <h2>Meus Exercicios</h2>
+            <form action="cadastro.js" method="post" autocomplete="on">
+                <p>
+                    <label for="selecionar">Selecione um </label>
+                    <select name="est" id="iest">
+                        <option value="" selected>--- Exercício ---</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                </p>
+                <p>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </p>
+            </form>
+        </article>
+        <article id="projetos">
+            <h2>Projetos</h2>
+            <form action="cadastro.js" method="post" autocomplete="on">
+                <p>
+                    <label for="selecionar">Selecione um </label>
+                    <select name="est" id="iest">
+                        <option value="" selected>--- Projeto ---</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                </p>
+                <p>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </p>
+            </form>
+        </article>
+        <article id="cursos">
+            <h2>Cursos</h2>
+            <ul>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+                <li>Veja meu certificado do Curso de <a href="#">...</a></li>
+            </ul>
+        </article>
+        <article id="habilidades">
+            <h2>Minhas Habilidades</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet odio hic voluptatum. Libero similique sint, error incidunt veniam quas, quidem autem dolore voluptatibus tempore expedita esse voluptatum eum non! Temporibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quod magni explicabo, a similique voluptate fugiat aliquam neque, sint, blanditiis soluta iste vel ratione. Temporibus velit ipsum earum ipsam aspernatur.</p>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        function clickBio(){
+            if(bio.style.display == 'block'){
+            }
+            else{
+                bio.style.display = 'block'
+                exercicios.style.display = 'none'
+                projetos.style.display = 'none'
+                cursos.style.display = 'none'
+                habilidades.style.display = 'none'
+            }
+        }
+        function clickExec(){
+            if(exercicios.style.display == 'block'){
+            }
+            else{
+                exercicios.style.display = 'block'
+                bio.style.display = 'none'
+                projetos.style.display = 'none'
+                cursos.style.display = 'none'
+                habilidades.style.display = 'none'
+            }
+        }
+        function clickProj(){
+            if(projetos.style.display == 'block'){
+            }
+            else{
+                projetos.style.display = 'block'
+                bio.style.display = 'none'
+                exercicios.style.display = 'none'
+                cursos.style.display = 'none'
+                habilidades.style.display = 'none'
+            }
+        }
+        function clickCurs(){
+            if(cursos.style.display == 'block'){
+            }
+            else{
+                cursos.style.display = 'block'
+                bio.style.display = 'none'
+                exercicios.style.display = 'none'
+                projetos.style.display = 'none'
+                habilidades.style.display = 'none'
+            }
+        }
+        function clickHabi(){
+            if(habilidades.style.display == 'block'){
+            }
+            else{
+                habilidades.style.display = 'block'
+                bio.style.display = 'none'
+                exercicios.style.display = 'none'
+                projetos.style.display = 'none'
+                cursos.style.display = 'none'
+            }
+        }
+    
+    </script>
+</body>
+</html>

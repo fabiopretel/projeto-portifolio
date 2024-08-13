@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+#bola{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+nav{
+    margin-top: 10px;
+    text-align: center;
+}
+nav > a > svg{
+    height: 10px;
+    width: 10px;
+    padding: 2px;
+}
+nav > a > svg:hover{
+    transform: translate(0px, -5px);
+    transition: transform 0.3s;
+}
+header{
+    background-color: gray;
+    padding-top: 100px;
+}
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+article{
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
